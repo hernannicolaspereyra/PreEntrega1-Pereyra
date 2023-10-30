@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.nav img{
+    width: 120px;
+    height: 90px;
+    padding: 10px;
+}
+
+.nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 2.5rem;
+}
+
+.nav ul button{
+    color: black;
+    border: none;
+    background-color: white;
+    font-size: 1.2rem;
+}
+.nav ul button:hover{
+    color: #932E92;
+}

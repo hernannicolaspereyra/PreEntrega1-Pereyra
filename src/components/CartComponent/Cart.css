@@ -1,0 +1,14 @@
+.cart img{
+    width: 50px;
+    height: 50px;
+}
+
+.cart span{
+    background-color: #932E92;
+    color: white;
+    border-radius: 50%;
+    padding: 1px 4px;
+    position: relative;
+    bottom: 30px;
+    right: 10px;
+}
