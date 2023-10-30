@@ -5,7 +5,7 @@ const Cart = () => {
     return (
         <div className="cart">
             <button><img src={LogoCarrito} alt="carrito-de-compras" /></button>
-            <span>0</span>
+            <span>5</span>
         </div>
     )
 }
