@@ -5,7 +5,10 @@ import Cart from "../CartComponent/cart.jsx"
 const NavBar = () => {
     return (
         <div className="nav">
-            <img src={logo} alt="logo-tienda" />
+            <div>
+                <img src={logo} alt="logo-tienda" />
+                <h1>Game Store</h1>
+            </div>
             <ul>
                 <button>Inicio</button>
                 <button>Productos</button>
