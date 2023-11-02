@@ -3,6 +3,12 @@
     height: 50px;
 }
 
+.cart button{
+    border: none;
+    border-radius: 50%;
+    padding: 5px;
+}
+
 .cart span{
     background-color: #932E92;
     color: white;

@@ -1,14 +1,11 @@
 import "./ItemListContainer.css"
 
-const ItemListContainer = (Producto) => {
-    const { Nombre, Precio } = Producto
+const ItemListContainer = ({greeting}) => {
+
     return (
 
         <div className="itemListContainer">
-            <img src="#" alt="imagen-producto" />
-            <h2>{Nombre}</h2>
-            <h2>U$D{Precio}</h2>
-            <button>Agregar al carrito</button>
+            <h2>{greeting}</h2>
         </div>
     )
 }
